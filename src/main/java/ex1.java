@@ -214,11 +214,11 @@
 //        является ли заданное число простым. Простое число - это число,
 //        которое делится без остатка только на 1 и само на себя.
 
-public class ex1 {
-    public static void main(String[] args) {
-
-    }
-}
+//public class ex1 {
+//    public static void main(String[] args) {
+//
+//    }
+//}
 
 
 //5. Разработайте программу, которая генерирует случайное число от 1 до 100
@@ -228,9 +228,30 @@ public class ex1 {
 //        " предположения" или "Загаданное число меньше вашего " +
 //        "предположения") до тех пор, пока пользователь не угадает число.
 
-
+//import java.util.Scanner;
+//import java.util.Random;
+//
 //public class ex1 {
 //    public static void main(String[] args) {
+//        Random random = new Random();
+//        int a = random.nextInt(100);
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Предположение: ");
+//        int n = scanner.nextInt();
+//
+//        while (a != n) {
+//            if (a > n) {
+//                System.out.println("Бери больше");
+//            } else if (a < n) {
+//                System.out.println("Бери меньше");
+//            }
+//
+//            System.out.println("Предположение: ");
+//            n = scanner.nextInt();
+//        }
+//
+//        System.out.println("Да, правильно!");
 //    }
 //}
 
@@ -246,16 +267,10 @@ public class ex1 {
 //        является ли заданный год високосным.
 //        Високосный год - это год, который делится на 4 без остатка,
 //        но не делится на 100, за исключением годов, которые делятся на 400 без остатка.
+
 //public class ex1 {
 //    public static void main(String[] args) {
 //    }
 //}
 
 
-//public class ex1 {
-//    public static void main(String[] args) {
-//        double n1 = 34.2;
-//        float n2 = 35.4f;
-//        System.out.println(n2);
-//    }
-//}
